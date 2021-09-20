@@ -48,12 +48,6 @@ const useAuth = (code) =>{
     return accessToken
 
 
-
-
-    
-
-
-
 }
 
 export default useAuth;
