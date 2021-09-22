@@ -4,6 +4,7 @@ import { Container, Form } from "react-bootstrap";
 import SpotifyWebApi from "spotify-web-api-node";
 import Timer from "./Components/Timer";
 import SelectColor from "./Components/SelectColor"
+import logo from './logo.png';
 
 const spotifyApi = new SpotifyWebApi({
   clientId: "b5f68b9868264119a0e7915feb40cb81",
@@ -42,6 +43,10 @@ export default function Dashboard({ code }) {
 
   return (
     <Container className="d-flex flex-column py-2" style={{ height: "100vh"}}>
+    <div>
+    <img className="mb-3" src={logo} alt="studyBuddy logo" />
+    </div>
+    
       <Timer />
       <div>
         <SelectColor/>
