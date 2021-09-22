@@ -40,15 +40,16 @@ export default function Dashboard({ code }) {
   }, [search, accessToken]);
 
   return (
-    <Container className="d-flex flex-column py-2" style={{ height: "100vh" }}>
+    <Container className="d-flex flex-column py-2" style={{ height: "100vh"}}>
       <Timer />
       <Form.Control
         type="search"
         placeholder="Search Playlists"
         value={search}
         onChange={(e) => setSearch(e.target.value)}
+        style={{width:"75rem", marginLeft:47}}
       />
-      <div>
+      <div style={{marginTop:20}}>
         {searchResults.map((playlist) => (
           <iframe
             src={`https://open.spotify.com/embed/playlist/${playlist.id}`}
