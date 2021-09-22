@@ -22,7 +22,7 @@ i:hover {
   background-size: contain;
   /* font-family: 'Orbitron', sans-serif; */
 }
-img {
+img.play-pause {
   filter: invert(22%) 
   sepia(14%) saturate(2399%) 
   hue-rotate(251deg) 

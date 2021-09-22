@@ -15,7 +15,7 @@ class Display extends React.Component {
         {(second<10) ? ("0" + second) : (second)}
         </div>
         <i id="start_stop" style={{borderRadius:50,textAlign:"center",fontSize:45}} onClick={this.props.startOrStop}>
-          <img style={{height:35, marginTop:-7}} src="https://static.thenounproject.com/png/159153-200.png" alt="play/pause"/>
+          <img className="play-pause"style={{height:35, marginTop:-7}} src="https://static.thenounproject.com/png/159153-200.png" alt="play/pause"/>
         </i>
         <i className="fas fa-redo fa-2x" id="reset"style={{fontSize:40, marginLeft:10}} onClick={this.props.reset}>&#8634;</i>
         </div>
