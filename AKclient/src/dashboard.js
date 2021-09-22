@@ -1,8 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState, useEffect, Component } from "react";
 import useAuth from "./useAuth";
 import { Container, Form } from "react-bootstrap";
 import SpotifyWebApi from "spotify-web-api-node";
 import Timer from "./Components/Timer";
+import SelectColor from "./Components/SelectColor"
 
 const spotifyApi = new SpotifyWebApi({
   clientId: "b5f68b9868264119a0e7915feb40cb81",
@@ -42,6 +43,9 @@ export default function Dashboard({ code }) {
   return (
     <Container className="d-flex flex-column py-2" style={{ height: "100vh"}}>
       <Timer />
+      <div>
+        <SelectColor/>
+      </div>
       <Form.Control
         type="search"
         placeholder="Search Playlists"
