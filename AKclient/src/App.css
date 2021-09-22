@@ -1,7 +1,6 @@
 .App {
   text-align: center;
   position: relative;
-  background-color: rgb(92, 48, 92);
   margin: auto;
   display: flex;
   justify-content: center;
@@ -23,14 +22,19 @@ i:hover {
   background-size: contain;
   /* font-family: 'Orbitron', sans-serif; */
 }
-
+img {
+  filter: invert(22%) 
+  sepia(14%) saturate(2399%) 
+  hue-rotate(251deg) 
+  brightness(89%) contrast(88%);
+}
 .break-container,
 .session-container,
 .display-container {
   border-radius: 40px;
-  border: 1px rgb(165, 85, 165) solid;
+  border: 1px rgb(165, 85, 161) solid;
   margin: 5px;
-  background-color: #f5f5f5;
+  background-color: #655185;
   background-image: linear-gradient(180deg, #f5f5f5 0%, #d8caf3 100%);
 }
 
