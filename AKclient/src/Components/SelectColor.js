@@ -72,11 +72,10 @@ const Bgcolor = () => {
         colorvalue(e.label)
     }
     return ( 
-        <div>
+        <div style={{width:"75rem", marginLeft:47, marginBottom:10}}>
             <style>{'body {background-color:'+setColor+';}'}</style>
-            <Select placeholder="mood? - select a color" options={colors} onChange={colorhandle}>
-
-
+            <Select placeholder="Please select a background color" options={colors} 
+            onChange={colorhandle}>
             </Select>
 
 
