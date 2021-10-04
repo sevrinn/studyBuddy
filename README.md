@@ -3,7 +3,7 @@ studyBuddy is a study timer and music player to stream your favorite focus music
 
 Features:
 - Sign into app (with spotify API authenticate)
-- 
+
 Main Timer
 - set minutes for study / break time
 - pressling start/pause button starts/pauses timer
