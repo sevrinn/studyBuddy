@@ -4,14 +4,21 @@ studyBuddy is a study timer and music player to stream your favorite focus music
 
 Features:
 - Sign into app (with spotify API authenticate)
+- 
 Main Timer
-- set minutes for study / break time / (number of cycles to repeat )
-- pressling start/pause button starts/pauses timer (and the music?)
-- when study time is complete, sound a chime, 
-- start break time (with an on screen message maybe?)
+- set minutes for study / break time
+- pressling start/pause button starts/pauses timer
+- when study time is complete, sound a chime 
+- start break time, sound chime when done.
+- study time restarts
 
 Music Player
-- pull data from api ( i was thinking a few pre-generated public playlists, or maybe pull up the signed in users playlists if they have any)
+- search bar allows user to search for their saved playlists as well public playlists matching search (up to 20 displayed)
+- embedded player has own start/stop functionality
 - boogie to the music
 
 based loosely on the Pomodoro study technique
+
+DEMO:
+
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/84943280/135787390-e9c692ef-91c8-44b1-9c69-9c2e40397c7c.gif)
