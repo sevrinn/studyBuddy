@@ -1,4 +1,3 @@
-Group Project Proposal:
 <studyBuddy />
 studyBuddy is a study timer and music player to stream your favorite focus music in the background while doing homework or a project. 
 
