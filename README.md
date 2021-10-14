@@ -5,16 +5,16 @@ Features:
 - Sign into app (with spotify API authenticate)
 
 Main Timer
-- set minutes for study / break time
-- pressling start/pause button starts/pauses timer
-- when study time is complete, sound a chime 
+- set minutes for study / break time.
+- pressing start/pause button starts/pauses timer.
+- when study time is complete, sound a chime. 
 - start break time, sound chime when done.
-- study time restarts
+- study time restarts.
 
 Music Player
-- search bar allows user to search for their saved playlists as well public playlists matching search (up to 20 displayed)
-- embedded player has own start/stop functionality
-- boogie to the music
+- search bar allows user to search for their saved playlists as well public playlists matching search (up to 20 displayed).
+- embedded player has own start/stop functionality.
+- boogie to the music.
 
 based loosely on the Pomodoro study technique
 
